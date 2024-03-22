@@ -1,0 +1,73 @@
+true - 45
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape * banana
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+47,91,58,66,38,86,56,39,82,46,69,76,86,8,8,51,8,28,37,83,92,11,92,14,96,12,19,97,75,85,44,84,37,14,95,90,57,49,2,20,60,17,97,93,81,19,10,19,16,8,66,35,82,42,26,73,77,35,79,62,25,34,94,9,89,85,60,2 * 93,37,87,20,88,5,74,56,79,39,33,26,85,35,19,71,83,73,50,21,98,9,27,21,56,83,78,86,20,6,47,4,56,56,3,65,54,60,56,3,10,39,91,69,20,88,67,74,58,21,35,27,22,1,84,34,77,63,88,27
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+banana
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+false * kiwi
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const randomNumber = getRandomNumber();
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+orange * 52
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const removeDuplicates = array => Array.from(new Set(array));
+2 + 85,77,67,41,45,83,93,12,51,70,99,80,57,53,98,65,86,19,96,3,3,47,73,53,59,75,31,64,80,39,51,54,53,69,54,67,26,51,18,59,6,29,84,97,6,43,86,74,51,18,80,41,44,63,82,27,48,33,99,24,97,47,24,3,83,98,79,85,17,59,54,40,52,65,27,97,55,7
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+24,64,79,53,89,44,43,43,77,17,62,56,63,77,46,21,67,67,72,95,27,11,14,15,21,5,93,36,54,18,46,18,77,99,38,28,54,35,88,25,26,95,32,64,41,11,51,10,3,45,80,85,16,44,25,76,51,90,15,74,8,10,46,75,74,14,69,87,66,94,67,28,19,27,76,80,12,70,71,36,11,55,58,71 * 11,7,14,96,78,63,67,23,59,81,37,55,68,15,1,65,63,27,79,42,25,67,85,47,68,32,37,85,66,79,90,27,19,77,81,54,17,8,61,10,51,87,90,28,88,88,76,94,23,69,55,11,21,61,22,60,30,63,84,17,84,81,0,66,55,7,86,49,68,76,65,15,61,92,53,4,90,85,97,34,16,1,49,95,29,25,92,53,27,60,0,43,57,37,78,13,91,16,46
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+61,38,51,85,81,52,74,17,76,18,84,20,65,39,6,54,55,74,98,45,34,65,96,41,35,68,64,4,73,15,56,44,61,75,2,40,44,99,27,13,20,18,70,93,85,19,44,54,65,85,73,27,53,99,30,84,87 * 89
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const multiply = (a, b) => a * b;
+10 - kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const findLargestNumber = numbers => Math.max(...numbers);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+grape + true
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const getUniqueValues = array => [...new Set(array)];
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+orange + orange
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const formatDate = date => new Date(date).toLocaleDateString();
+const isEven = num => num % 2 === 0;
+
+grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+console.log(getRandomString());
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const multiply = (a, b) => a * b;
+const formatDate = date => new Date(date).toLocaleDateString();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+false + 12,58,83,26,57,2,11,25,92,26,11,0,39,47,45,24,94,33,13,30,53,79,83,41,27,20,72,74,60,6,48,91,80,1
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
